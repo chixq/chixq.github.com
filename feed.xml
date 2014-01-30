@@ -12,6 +12,7 @@
       <title>A red herring</title>
       <link>http://chixq.com/articles/red-herring/</link>
       <pubDate>Mon, 01 Apr 2013 08:00:00 +0800</pubDate>
+      <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
       <guid isPermaLink="true">http://chixq.com/articles/red-herring/</guid>
       <author></author>
     </item>
@@ -19,6 +20,7 @@
       <title>Code and stuff!</title>
       <link>http://chixq.com/articles/another-test/</link>
       <pubDate>Mon, 01 Oct 2012 15:00:00 +0800</pubDate>
+      <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
       <guid isPermaLink="true">http://chixq.com/articles/another-test/</guid>
       <author></author>
     </item>
@@ -26,6 +28,7 @@
       <title>Markdown syntax</title>
       <link>http://chixq.com/articles/markdown-syntax/</link>
       <pubDate>Thu, 02 Feb 2012 08:00:00 +0800</pubDate>
+      <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
       <guid isPermaLink="true">http://chixq.com/articles/markdown-syntax/</guid>
       <author></author>
     </item>
@@ -33,10 +36,11 @@
       <title>Taketori Monogatari</title>
       <link>http://chixq.com/articles/bamboo-cutter/</link>
       <pubDate>Wed, 01 Feb 2012 08:00:00 +0800</pubDate>
+      <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
       <guid isPermaLink="true">http://chixq.com/articles/bamboo-cutter/</guid>
       <author></author>
     </item>
   </channel>
-  <!-- passing locals.url resolves all relative urls to absolutedescription= article.getHtml(locals.url)
-  -->
+  <!-- passing locals.url resolves all relative urls to absolute-->
+  <!--            description= article.getHtml(locals.url)-->
 </rss>
