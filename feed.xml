@@ -5,9 +5,17 @@
     <atom:link href="http://chixq.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://chixq.com</link>
     <description>Kris Chi's personal blog with the help of wintersmith</description>
-    <pubDate>Wed, 19 Feb 2014 08:00:00 +0800</pubDate>
+    <pubDate>Thu, 27 Feb 2014 08:00:00 +0800</pubDate>
     <generator>The mighty Wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>'Bloody Yanks'</title>
+      <link>http://chixq.com/articles/bloody-yanks/</link>
+      <pubDate>Thu, 27 Feb 2014 08:00:00 +0800</pubDate>
+      <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
+      <guid isPermaLink="true">http://chixq.com/articles/bloody-yanks/</guid>
+      <author></author>
+    </item>
     <item>
       <title>The Way I Blog</title>
       <link>http://chixq.com/articles/the-way-i-blog/</link>
