@@ -199,7 +199,7 @@ footer ul li p {
 }
 footer {
   font-family: 'Alegreya SC', georgia, serif, '黑体';
-  text-transform: lowercase;
+  text-transform: upppercase;
 }
 .footer-container {
   background-image: url("../asserts/images/footerbg.jpg");
