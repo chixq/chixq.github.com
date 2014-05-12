@@ -367,3 +367,18 @@ footer {
   border: 4px solid transparent;
   border-left-color: #000;
 }
+.insta {
+  float: right;
+  display: block;
+  width: 290px;
+  height: 290px;
+  background: #fafafa;
+  padding: 12px;
+  border: 1px solid #bcbcbc;
+  margin-left: 3px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.27), 0 0 40px rgba(0,0,0,0.06);
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.27), 0 0 60px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.27), 0 0 40px rgba(0,0,0,0.06);
+  margin-right: 5px;
+  margin-top: 3px;
+}
