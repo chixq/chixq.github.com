@@ -5,9 +5,17 @@
     <atom:link href="http://chixq.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://chixq.com</link>
     <description>Kris Chi's personal blog with the help of wintersmith</description>
-    <pubDate>Thu, 27 Feb 2014 08:00:00 +0800</pubDate>
+    <pubDate>Mon, 12 May 2014 08:00:00 +0800</pubDate>
     <generator>The mighty Wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Movies of Time Travel</title>
+      <link>http://chixq.com/articles/movies-of-time-travel/</link>
+      <pubDate>Mon, 12 May 2014 08:00:00 +0800</pubDate>
+      <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
+      <guid isPermaLink="true">http://chixq.com/articles/movies-of-time-travel/</guid>
+      <author></author>
+    </item>
     <item>
       <title>'Bloody Yanks'</title>
       <link>http://chixq.com/articles/bloody-yanks/</link>
