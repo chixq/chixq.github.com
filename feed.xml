@@ -5,13 +5,21 @@
     <atom:link href="http://chixq.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://chixq.com</link>
     <description>Kris Chi's personal blog with the help of wintersmith</description>
-    <pubDate>Thu, 17 Jul 2014 09:00:00 +0900</pubDate>
+    <pubDate>Mon, 01 Sep 2014 08:00:00 +0800</pubDate>
     <generator>The mighty Wintersmith</generator>
     <language>en</language>
     <item>
+      <title>LL &amp; LH</title>
+      <link>http://chixq.com/articles/LLandLH/</link>
+      <pubDate>Mon, 01 Sep 2014 08:00:00 +0800</pubDate>
+      <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
+      <guid isPermaLink="true">http://chixq.com/articles/LLandLH/</guid>
+      <author></author>
+    </item>
+    <item>
       <title>Tricks of Linux</title>
       <link>http://chixq.com/articles/tricks-of-linux/</link>
-      <pubDate>Thu, 17 Jul 2014 09:00:00 +0900</pubDate>
+      <pubDate>Thu, 17 Jul 2014 08:00:00 +0800</pubDate>
       <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
       <guid isPermaLink="true">http://chixq.com/articles/tricks-of-linux/</guid>
       <author></author>
@@ -19,7 +27,7 @@
     <item>
       <title>Movies of Time Travel</title>
       <link>http://chixq.com/articles/movies-of-time-travel/</link>
-      <pubDate>Mon, 12 May 2014 09:00:00 +0900</pubDate>
+      <pubDate>Mon, 12 May 2014 08:00:00 +0800</pubDate>
       <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
       <guid isPermaLink="true">http://chixq.com/articles/movies-of-time-travel/</guid>
       <author></author>
@@ -27,7 +35,7 @@
     <item>
       <title>'Bloody Yanks'</title>
       <link>http://chixq.com/articles/bloody-yanks/</link>
-      <pubDate>Thu, 27 Feb 2014 09:00:00 +0900</pubDate>
+      <pubDate>Thu, 27 Feb 2014 08:00:00 +0800</pubDate>
       <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
       <guid isPermaLink="true">http://chixq.com/articles/bloody-yanks/</guid>
       <author></author>
@@ -35,7 +43,7 @@
     <item>
       <title>The Way I Blog</title>
       <link>http://chixq.com/articles/the-way-i-blog/</link>
-      <pubDate>Wed, 19 Feb 2014 09:00:00 +0900</pubDate>
+      <pubDate>Wed, 19 Feb 2014 08:00:00 +0800</pubDate>
       <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
       <guid isPermaLink="true">http://chixq.com/articles/the-way-i-blog/</guid>
       <author></author>
@@ -43,7 +51,7 @@
     <item>
       <title>A red herring</title>
       <link>http://chixq.com/articles/red-herring/</link>
-      <pubDate>Mon, 01 Apr 2013 09:00:00 +0900</pubDate>
+      <pubDate>Mon, 01 Apr 2013 08:00:00 +0800</pubDate>
       <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
       <guid isPermaLink="true">http://chixq.com/articles/red-herring/</guid>
       <author></author>
@@ -51,7 +59,7 @@
     <item>
       <title>Code and stuff!</title>
       <link>http://chixq.com/articles/another-test/</link>
-      <pubDate>Mon, 01 Oct 2012 15:00:00 +0900</pubDate>
+      <pubDate>Mon, 01 Oct 2012 15:00:00 +0800</pubDate>
       <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
       <guid isPermaLink="true">http://chixq.com/articles/another-test/</guid>
       <author></author>
@@ -59,7 +67,7 @@
     <item>
       <title>Markdown syntax</title>
       <link>http://chixq.com/articles/markdown-syntax/</link>
-      <pubDate>Thu, 02 Feb 2012 09:00:00 +0900</pubDate>
+      <pubDate>Thu, 02 Feb 2012 08:00:00 +0800</pubDate>
       <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
       <guid isPermaLink="true">http://chixq.com/articles/markdown-syntax/</guid>
       <author></author>
@@ -67,7 +75,7 @@
     <item>
       <title>Taketori Monogatari</title>
       <link>http://chixq.com/articles/bamboo-cutter/</link>
-      <pubDate>Wed, 01 Feb 2012 09:00:00 +0900</pubDate>
+      <pubDate>Wed, 01 Feb 2012 08:00:00 +0800</pubDate>
       <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
       <guid isPermaLink="true">http://chixq.com/articles/bamboo-cutter/</guid>
       <author></author>
