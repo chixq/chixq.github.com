@@ -11,5 +11,5 @@
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-47213052-1', 'chixq.com');
- ga('require', 'displayfeatures');
+ga('require', 'displayfeatures');
 ga('send', 'pageview');
