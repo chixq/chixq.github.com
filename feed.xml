@@ -5,9 +5,17 @@
     <atom:link href="http://chixq.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://chixq.com</link>
     <description>Kris Chi's personal blog with the help of wintersmith</description>
-    <pubDate>Sun, 09 Nov 2014 08:00:00 +0800</pubDate>
+    <pubDate>Tue, 03 Mar 2015 08:00:00 +0800</pubDate>
     <generator>The mighty Wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Alerting &amp; Monitoring Philosophy</title>
+      <link>http://chixq.com/articles/alerting-philosophy/</link>
+      <pubDate>Tue, 03 Mar 2015 08:00:00 +0800</pubDate>
+      <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
+      <guid isPermaLink="true">http://chixq.com/articles/alerting-philosophy/</guid>
+      <author></author>
+    </item>
     <item>
       <title>中文翻译：Heroku's 12-Factor-APP</title>
       <link>http://chixq.com/articles/12-factor-app/</link>
