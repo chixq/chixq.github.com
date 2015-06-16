@@ -16,7 +16,7 @@ body {
   height: 100%;
   width: 100%;
   text-rendering: optimizeLegibility;
-  font-family: 'Alegreya', georgia, Helvetica, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", serif, "WenQuanYi Micro Hei";
+  font-family: 'Alegreya', georgia, Helvetica, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", Arial, "WenQuanYi Micro Hei", serif;
   font-size: 18px;
   line-height: 2rem;
   font-weight: 400;
@@ -198,7 +198,7 @@ footer ul li p {
   padding: 0 0.4615rem;
 }
 footer {
-  font-family: 'Alegreya SC', georgia, Helvetica, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", serif, "WenQuanYi Micro Hei";
+  font-family: 'Alegreya SC', georgia, Helvetica, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", Arial, "WenQuanYi Micro Hei", serif;
   text-transform: upppercase;
 }
 .footer-container {
@@ -211,7 +211,7 @@ footer {
   margin-top: 0.4615rem;
 }
 .powerby {
-  font-family: 'Alegreya', georgia, Helvetica, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", serif, "WenQuanYi Micro Hei";
+  font-family: 'Alegreya', georgia, Helvetica, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", Arial, "WenQuanYi Micro Hei", serif;
   display: inline;
   font-size: 0.8em;
   color: #e6e5e2;
@@ -244,7 +244,7 @@ footer {
 .date a,
 .author a,
 .more a {
-  font-family: 'Alegreya SC', georgia, Helvetica, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", serif, "WenQuanYi Micro Hei";
+  font-family: 'Alegreya SC', georgia, Helvetica, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", Arial, "WenQuanYi Micro Hei", serif;
   text-transform: lowercase;
 }
 .date {
@@ -258,14 +258,14 @@ footer {
   margin-top: 0;
 }
 .by {
-  font-family: 'Alegreya', georgia, Helvetica, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", serif, "WenQuanYi Micro Hei";
+  font-family: 'Alegreya', georgia, Helvetica, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", Arial, "WenQuanYi Micro Hei", serif;
 }
 .by:before {
   content: 'By\00A0';
   text-transform: none;
 }
 .comment {
-  font-family: 'Alegreya', georgia, Helvetica, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", serif, "WenQuanYi Micro Hei";
+  font-family: 'Alegreya', georgia, Helvetica, "Segoe UI", "Hiragino Sans GB", "Microsoft YaHei", Arial, "WenQuanYi Micro Hei", serif;
   right: 8px;
   text-decoration: none;
   text-align: center;
