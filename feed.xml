@@ -5,9 +5,17 @@
     <atom:link href="http://chixq.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://chixq.com</link>
     <description>Kris Chi's personal blog with the help of wintersmith</description>
-    <pubDate>Wed, 13 May 2015 08:00:00 +0800</pubDate>
+    <pubDate>Sat, 13 Jun 2015 08:00:00 +0800</pubDate>
     <generator>The mighty Wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Best Practise of Shell</title>
+      <link>http://chixq.com/articles/Best-Practise-of-Shell/</link>
+      <pubDate>Sat, 13 Jun 2015 08:00:00 +0800</pubDate>
+      <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
+      <guid isPermaLink="true">http://chixq.com/articles/Best-Practise-of-Shell/</guid>
+      <author></author>
+    </item>
     <item>
       <title>Be Kind</title>
       <link>http://chixq.com/articles/be-kind/</link>
