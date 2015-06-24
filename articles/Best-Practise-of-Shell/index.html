@@ -37,7 +37,7 @@
 </li>
 <li><p>$$: 当前脚本的pid，一般用来处理多个脚本实例问题。</p>
 </li>
-<li><p>$<em> 和$@ :　这两种表达都指代所有向脚本传递的参数，只是在脚本中如果加了双引号，”$@” 会
+<li><p>“$<em>“ 和 “$@” :　这两种表达都指代所有向脚本传递的参数，只是在脚本中如果加了双引号，”$@” 会
 将所有参数分开输出“$1”, “$2” … “$n” ，方便For-loop，而 ”$</em>” 将所有参数作为一个整体输出 “$1
 $2 … $n”</p>
 </li>
@@ -167,9 +167,9 @@ trap - INT TERM EXIT
 工具（一般来说一个趁手的Vim + set -x 就足够基本调试），但是Shell脚本的Linux平台通用性和高效率，以及
 丰富的第三方工具（Sed, xargs）都让Shell脚本编写在很长时间内都是熟练掌握Linux的标志。</p>
 <p>这里放几个wiki和资料，会随时更新：</p>
-<p><a href="http://www.dwheeler.com/essays/fixing-unix-linux-filenames.html">Fixing Unix/Linux/POSIX Filenames:Control Characters (such as Newline), Leading Dashes, and Other Problems</a>
-<a href="http://bash.cyberciti.biz/guide/Sending_signal_to_Processes">Sending signal to Processes</a>
-<a href="http://bash.cyberciti.biz/guide/Setting_shell_options">Setting shell options</a></p>
+<p><a href="http://www.dwheeler.com/essays/fixing-unix-linux-filenames.html">Fixing Unix/Linux/POSIX Filenames:Control Characters (such as Newline), Leading Dashes, and Other Problems</a></p>
+<p><a href="http://bash.cyberciti.biz/guide/Sending_signal_to_Processes">Sending signal to Processes</a></p>
+<p><a href="http://bash.cyberciti.biz/guide/Setting_shell_options">Setting shell options</a></p>
 </section>
       </article>
       <div id="indicator"></div>
