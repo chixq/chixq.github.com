@@ -37,8 +37,8 @@
 </li>
 <li><p>$$: 当前脚本的pid，一般用来处理多个脚本实例问题。</p>
 </li>
-<li><p>$<em>**</em> 和　$@ :　这两种表达都指代所有向脚本传递的参数，只是在脚本中如果加了双引号，”$@” 会
-将所有参数分开输出“$1”, “$2” … “$n” ，方便For-loop，而 ”$*” 将所有参数作为一个整体输出 “$1
+<li><p>$<em> 和$@ :　这两种表达都指代所有向脚本传递的参数，只是在脚本中如果加了双引号，”$@” 会
+将所有参数分开输出“$1”, “$2” … “$n” ，方便For-loop，而 ”$</em>” 将所有参数作为一个整体输出 “$1
 $2 … $n”</p>
 </li>
 <li><p>$?: 代表上一个脚本的exit code. 0 代表正常退出， 非0 代表非正常退出。
@@ -52,7 +52,7 @@ $2 … $n”</p>
 常用的包括禁止EOF，即Ctrl+D 退出shell脚本，禁止重定向文件被重写, 变量未定义则退出等，详细的开关设置<a href="http://baidu.com">查看这里</a>），set -o
 表示查看当前开关状态，也可以后接开关名称使用，set -o &lt;开关选项&gt;，用　set +o &lt;开关选项&gt; 关闭开关。</p>
 <p>当然，也可直接用　set -x , set -u 等快捷方式直接操作系统开关。</p>
-<p>shopt 和　set 是一个意思，只是有些不同版本的　shell 推荐使用　shopt。</p>
+<p>shopt 和　set 是一个意思，只是有些不同版本的shell推荐使用shopt。</p>
 <ol>
 <li>set -x 或 set -o xtrace: 打开所有debug/echo 信息，这点在脚本调试时非常好用。</li>
 </ol>
@@ -161,9 +161,9 @@ trap - INT TERM EXIT
 用上面的脚本，可以很容易的判断命令存在与否。</p>
 <h3 id="-">保持原子性</h3>
 <p>意思就是，尽量使脚本语句为一个原子操作，出错整条语句退出，而不会继续“滚雪球”。
-这里要提醒的是，　command1&amp;&amp;command2　代表　command1 执行成功时才执行　command2, 而
-command1;command2，代表无论command1执行成功与否，都执行command2。</p>
-<p>总的来说，shell脚本编写格式要求非常严格（试想下　if, while　语句），并且缺乏好用的编辑调试
+这里要提醒的是，<code>command1 &amp;&amp; command2</code>代表command1 执行成功时才执行command2, 而
+<code>command1 ; command2</code>，代表无论command1执行成功与否，都执行command2。</p>
+<p>总的来说，shell脚本编写格式要求非常严格（试想下if, while语句），并且缺乏好用的编辑调试
 工具（一般来说一个趁手的Vim + set -x 就足够基本调试），但是Shell脚本的Linux平台通用性和高效率，以及
 丰富的第三方工具（Sed, xargs）都让Shell脚本编写在很长时间内都是熟练掌握Linux的标志。</p>
 <p>这里放几个wiki和资料，会随时更新：</p>
