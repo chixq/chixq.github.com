@@ -77,7 +77,7 @@
 我们一直在寻找一个优秀的，可靠的，文档齐全的API设计方法，但这种方法并不是最终的，唯一的。
 在开始之前，我们假定你已经了解最基本的HTTP+JSON APIs，所以我们将不会赘述这些基本概念。</p>
 <h2 id="foundations">Foundations</h2>
-<h3 id="require-tls">Require TLS</h3>
+<p>###Require TLS</p>
 <p>无一例外，访问API需要TLS（<em>TSL1.0== SSLv3.1</em>）加密。而不是讨论什么时候需要TLS什么时候不需要，<strong>任何时候任何情况下</strong>，都需要TLS。
 理想情况下，应该屏蔽所有访问http或者80端口的请求避免非安全的数据交换。如果具体环境不允许，服务器应该提示403 Forbidden。
 同时，尽量避免Redirect，因为即使采用TLS加密，在跳转过程中，敏感数据可能在第一次请求时已经被泄露，而且请求跳转会使服务器压力加倍。</p>
