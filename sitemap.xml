@@ -3,13 +3,13 @@
   <url>
     <loc>http://chixq.com
     </loc>
-    <lastmod>2015-10-02T10:46:21.679Z</lastmod>
+    <lastmod>2015-10-06T09:06:23.323Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://chixq.com/archive.html</loc>
-    <lastmod>2015-10-02T10:46:21.679Z</lastmod>
+    <lastmod>2015-10-06T09:06:23.323Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -94,6 +94,24 @@
   <url>
     <loc>http://chixq.com/articles/bamboo-cutter/</loc>
     <lastmod>2012-02-01T00:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://chixq.com/tag/原创, 翻译</loc>
+    <lastmod>2015-10-06T09:06:23.323Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://chixq.com/tag/原创, 运维</loc>
+    <lastmod>2015-10-06T09:06:23.323Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://chixq.com/tag/原创</loc>
+    <lastmod>2015-10-06T09:06:23.323Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
