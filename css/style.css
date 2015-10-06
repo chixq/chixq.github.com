@@ -52,10 +52,12 @@ footer ul li a {
   color: #e6e5e2;
 }
 a {
-  color: #444;
+  color: #830001;
+  text-decoration: none;
 }
 a:hover {
-  color: #f55;
+  color: #9c0001;
+  text-decoration: underline;
 }
 p,
 ul,
