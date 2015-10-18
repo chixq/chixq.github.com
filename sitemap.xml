@@ -3,15 +3,21 @@
   <url>
     <loc>http://chixq.com
     </loc>
-    <lastmod>2015-10-06T09:14:09.360Z</lastmod>
+    <lastmod>2015-10-18T13:22:35.297Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://chixq.com/archive.html</loc>
-    <lastmod>2015-10-06T09:14:09.360Z</lastmod>
+    <lastmod>2015-10-18T13:22:35.297Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://chixq.com/articles/kube-series-2-fit2cloud-qingcloud/</loc>
+    <lastmod>2015-10-11T00:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>http://chixq.com/articles/Best-Practise-of-Shell/</loc>
@@ -62,6 +68,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>http://chixq.com/articles/kube-series-1-basic/</loc>
+    <lastmod>2014-05-10T00:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://chixq.com/articles/bloody-yanks/</loc>
     <lastmod>2014-02-27T00:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -99,19 +111,31 @@
   </url>
   <url>
     <loc>http://chixq.com/tag/原创, 翻译</loc>
-    <lastmod>2015-10-06T09:14:09.360Z</lastmod>
+    <lastmod>2015-10-18T13:22:35.297Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://chixq.com/tag/原创, 运维</loc>
-    <lastmod>2015-10-06T09:14:09.360Z</lastmod>
+    <lastmod>2015-10-18T13:22:35.297Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://chixq.com/tag/原创</loc>
-    <lastmod>2015-10-06T09:14:09.360Z</lastmod>
+    <lastmod>2015-10-18T13:22:35.297Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://chixq.com/tag/原创, docker, 运维</loc>
+    <lastmod>2015-10-18T13:22:35.297Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://chixq.com/tag/原创, docker, 运维, fit2cloud</loc>
+    <lastmod>2015-10-18T13:22:35.297Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>

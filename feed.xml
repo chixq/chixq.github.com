@@ -5,9 +5,17 @@
     <atom:link href="http://chixq.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://chixq.com</link>
     <description>Kris Chi's personal blog with the help of wintersmith</description>
-    <pubDate>Sat, 13 Jun 2015 08:00:00 +0800</pubDate>
+    <pubDate>Sun, 11 Oct 2015 08:00:00 +0800</pubDate>
     <generator>The mighty Wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Kubernetes 系列之二： 通过 FIT2CLOUD 在青云QingCloud VPC 上快速部署管理 Kubernetes</title>
+      <link>http://chixq.com/articles/kube-series-2-fit2cloud-qingcloud/</link>
+      <pubDate>Sun, 11 Oct 2015 08:00:00 +0800</pubDate>
+      <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
+      <guid isPermaLink="true">http://chixq.com/articles/kube-series-2-fit2cloud-qingcloud/</guid>
+      <author></author>
+    </item>
     <item>
       <title>Best Practise of Shell</title>
       <link>http://chixq.com/articles/Best-Practise-of-Shell/</link>
@@ -70,6 +78,14 @@
       <pubDate>Mon, 12 May 2014 08:00:00 +0800</pubDate>
       <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
       <guid isPermaLink="true">http://chixq.com/articles/movies-of-time-travel/</guid>
+      <author></author>
+    </item>
+    <item>
+      <title>Kubernetes 系列之二： 通过 FIT2CLOUD 在青云QingCloud VPC 上快速部署管理 Kubernetes</title>
+      <link>http://chixq.com/articles/kube-series-1-basic/</link>
+      <pubDate>Sat, 10 May 2014 08:00:00 +0800</pubDate>
+      <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->
+      <guid isPermaLink="true">http://chixq.com/articles/kube-series-1-basic/</guid>
       <author></author>
     </item>
     <item>
