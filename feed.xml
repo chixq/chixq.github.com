@@ -81,7 +81,7 @@
       <author></author>
     </item>
     <item>
-      <title>Kubernetes 系列之二： 通过 FIT2CLOUD 在青云QingCloud VPC 上快速部署管理 Kubernetes</title>
+      <title>Kubernetes 系列之一： 部署 Kubernetes</title>
       <link>http://chixq.com/articles/kube-series-1-basic/</link>
       <pubDate>Sat, 10 May 2014 08:00:00 +0800</pubDate>
       <!--pubDate= moment.utc(article.date).format('DD MMMM YYYY')-->

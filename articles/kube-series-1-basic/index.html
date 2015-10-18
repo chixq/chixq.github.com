@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"><meta name="baidu-site-verification" content="vEavWfdG7u" />
-    <title>Kubernetes 系列之二： 通过 FIT2CLOUD 在青云QingCloud VPC 上快速部署管理 Kubernetes &mdash;a Blog
+    <title>Kubernetes 系列之一： 部署 Kubernetes &mdash;a Blog
     </title>
     <link rel="alternate" href="http://chixq.com/feed.xml" type="application/rss+xml" title="Kris Chi's personal blog with the help of wintersmith">
     <link rel="shortcut icon" href="/favicon.ico">
@@ -22,7 +22,7 @@
       <nav class="arrow_about"><a href="/" class="about_label"><span class="icon-angle-circled-left"></span><span>Home</span></a></nav>
       <article class="post">
               <p class="date"><span>10 May 2014</span></p>
-        <h1 class="post-title">Kubernetes 系列之二： 通过 FIT2CLOUD 在青云QingCloud VPC 上快速部署管理 Kubernetes</h1>
+        <h1 class="post-title">Kubernetes 系列之一： 部署 Kubernetes</h1>
               <p class="author"><span class="by"></span>Kris Chi
               </p>
         <p class="tags"><a href="/tag/原创/1/" class="tag-link">原创</a><a href="/tag/docker/1/" class="tag-link">docker</a><a href="/tag/运维/1/" class="tag-link">运维</a>
@@ -47,7 +47,7 @@
 <li><strong>Labels</strong>：K/V模式，用来标记Kubernetes组件的类别关系（例如标记一组Pods是frontServices，另一组是backServices）。Labels对于Kubernetes的伸缩调度非常重要。</li>
 </ul>
 <p>Kubernetes的设计架构如下图所示：</p>
-<p><img src="https://github.com/GoogleCloudPlatform/kubernetes/raw/master/docs/architecture.png?raw=true" alt="GithubImages">
+<p><img src="https://github.com/kubernetes/kubernetes/blob/master/docs/design/architecture.png?raw=true" alt="GithubImages">
 <em>点击查看大图</em></p>
 <p>如上图所示，左边是Kubernetes的Master Node，主要包含：</p>
 <ol>
@@ -69,8 +69,8 @@
 <h4 id="step-1-build-binary">Step 1. Build binary</h4>
 <p>由上文可知，Kubernetes实现了低耦合，高内聚，可插拔的组件，对于Master和Minions，我们可以手动构建各自需要的二进制包，将其部署在不同的节点。</p>
 <p><em>注意：Kubernetes 现在的状态是under actively development，脚本位置和内容随时可能变化，请酌情使用</em></p>
-<p>1.首先，在构建环境中必须先<a href="https://docs.docker.com/installation/">安装Docker</a>，Python。
-2.git clone 代码并构建各个binaries</p>
+<p>1.首先，在构建环境中必须先<a href="https://docs.docker.com/installation/">安装Docker</a>，Python。</p>
+<p>2.git clone 代码并构建各个binaries</p>
 <pre><code>1. 构建etcd，Master/Minion上的分布式K/V服务
 $ git clone git@github.com:coreos/etcd.git
 $ cd etcd
